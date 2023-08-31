@@ -1,0 +1,563 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2023-08-23T08:38:01.048Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Chanachai",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2023-08-23T08:42:00.779Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "ไดอารี่",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2023-08-23T09:40:08.650Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "ไดอารี่",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Immage\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2023-08-23T09:46:35.570Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "ครูโหดจัด",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2023-08-30T16:13:35.339Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "หนุ่มโดนทำลายความฝัน ถูก ‘ครู’ ทุบกีตาร์ที่เก็บตังค์ซื้อเองพังยับ ไม่รับผิดชอบ ‘กัน จอมพลัง’ พร้อมช่วย คนใจดีพร้อมยกของตัวเองให้",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Content\", \"Immage\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2023-08-30T16:14:08.206Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "‘เสรีพิศุทธ์’ เปิดใจไขก๊อก ส.ส. ปัดผิดหวังไร้ตำแหน่ง แต่งงเพื่อไทย ตั้งใครมาก็ไม่รู้",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Content\", \"Immage\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2023-08-30T16:15:10.301Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "หนุ่มโดนทำลายความฝัน ถูก ‘ครู’ ทุบกีตาร์ที่เก็บตังค์ซื้อเองพังยับ ไม่รับผิดชอบ ‘กัน จอมพลัง’ พร้อมช่วย คนใจดีพร้อมยกของตัวเองให้",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2023-08-30T16:15:20.548Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "‘เสรีพิศุทธ์’ เปิดใจไขก๊อก ส.ส. ปัดผิดหวังไร้ตำแหน่ง แต่งงเพื่อไทย ตั้งใครมาก็ไม่รู้",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2023-08-30T16:16:38.788Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "22 ล้านวิว! ครอบครัวชาวออสเตรเลีย เผยคลิปงูเบิ้ม 5 เมตร เลื้อยผ่านหลังคาบ้าน",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2023-08-30T16:17:37.549Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "4",
+            "object_repr": "โปรดเกล้าฯ แต่งตั้งโยกย้าย 762 นายพล ส่งท้าย ‘บิ๊กตู่’ ‘บิ๊กอ๊อบ’ ผงาด ผบ.ทสส. ขณะที่ ‘บิ๊กต่อ’ ขึ้น ผบ.ทบ. ‘บิ๊กดุง’ นั่งผบ.ทร.",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add author",
+            "content_type": 7,
+            "codename": "add_author"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change author",
+            "content_type": 7,
+            "codename": "change_author"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete author",
+            "content_type": 7,
+            "codename": "delete_author"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view author",
+            "content_type": 7,
+            "codename": "view_author"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add news",
+            "content_type": 8,
+            "codename": "add_news"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change news",
+            "content_type": 8,
+            "codename": "change_news"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete news",
+            "content_type": 8,
+            "codename": "delete_news"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view news",
+            "content_type": 8,
+            "codename": "view_news"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$Vh0c3uQLF4IiRLf8E28Qp9$AGy6NFTHZ4U0FlP6PMfg2Xs8enFQg1XLlAn+cZKJPDs=",
+            "last_login": "2023-08-23T08:32:01.771Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-08-23T08:27:41.995Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "News",
+            "model": "author"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "News",
+            "model": "news"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "a4tcm9fiqfapvz4bgaoz8vp6e3yjgg51",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAQRf-FtSFAeY1L934DGWCQqoGktCvjv2uTLnR7zzn3xQJuaw3boCXMmZ2ZZKffLWJ6UNtBvmO7dZ56W5c58l3hBx382jM9L4f7d1Bx1G9thMzGKqFtRIlCT1CmIsh4KDkSRkUCvLRCWW_c5FGBgQQuae-cJUzs_QHDjDcg:1qYjHV:9a26Vex3ufuBA3PididNRkjCjQRQIH0T0vrOAMoeUSw",
+            "expire_date": "2023-09-06T08:32:01.775Z"
+        }
+    },
+    {
+        "model": "News.author",
+        "pk": 1,
+        "fields": {
+            "frist_mane": "Chanachai",
+            "Lest_Name": "Lestsongkram",
+            "rank": 1
+        }
+    },
+    {
+        "model": "News.news",
+        "pk": 1,
+        "fields": {
+            "title": "‘เสรีพิศุทธ์’ เปิดใจไขก๊อก ส.ส. ปัดผิดหวังไร้ตำแหน่ง แต่งงเพื่อไทย ตั้งใครมาก็ไม่รู้",
+            "Author": 1,
+            "content": "เมื่อวันที่ 30 สิงหาคม ที่พรรคเสรรีรวมไทย พล.ต.อ.เสรีพิศุทธ์ เตมียเวส หัวหน้าพรรคเสรีรวมไทย แถลงข่าวต่อสื่อมวลชนถึงกรณีลาออกจากตำแหน่ง ส.ส.บัญชีรายชื่อว่า ได้ยื่นหนังสือลาออกไปตั้งแต่วันที่โหวตนายกฯจบ เมื่อการเลือกตั้งจบแล้วทางพรรคได้รับเลือกแค่เพียงคนเดียว ทั้งที่ทางพรรคมีผู้สมัครที่มีความสามารถมากมายแต่ไม่ได้ถูกประชาชนเลือกเขามาทำหน้าที่ ในเมื่อประชาชนไม่ต้องการพรรคเสรีรวมไทยแล้วตนจะไปนั่งอยู่ในสภาทำหอกอะไร รับใช้มา 4 ปีเต็มแล้ว ผมเป็นคนไม่ยึดติดกันตำแหน่งอะไรทั้งสิ้น เกิดมาไม่เคยขอตำแหน่งใคร เป็น ผบ.ตร.ไม่เคยรู้จักนายกฯสุรยุทธ์ จุลานนท์ มาก่อนเลย เราก็ทำหน้าที่ของเราให้ดีที่สุด แต่เมื่อผลการเลือกตั้งออกมาแบบนี้ ก็อยากเสียสละให้คนในพรรคเบอร์ 2 ได้ทำงานบ้าง",
+            "time_date": "2023-08-23T08:42:00.774Z",
+            "immage": "content/cats-246.jpg"
+        }
+    },
+    {
+        "model": "News.news",
+        "pk": 2,
+        "fields": {
+            "title": "หนุ่มโดนทำลายความฝัน ถูก ‘ครู’ ทุบกีตาร์ที่เก็บตังค์ซื้อเองพังยับ ไม่รับผิดชอบ ‘กัน จอมพลัง’ พร้อมช่วย คนใจดีพร้อมยกของตัวเองให้",
+            "Author": 1,
+            "content": "เรื่องราวน่าตกใจของ ผู้ใช้เฟซบุ๊กรายหนึ่ง กำลังถูกกล่าวถึงอย่างกว้างขวาง เมื่อเขาระบุถึงพฤติกรรม “ครู” แสดงอาการไม่พอใจ จนมาทุบทำลาย “กีตาร์” ของตนที่เก็บเงินซื้อด้วยน้ำพักน้ำแรงจนพังยับ โดยครูเมินเฉยไม่รับผิดชอบแต่อย่างใด ตอนนี้ห่วงเรื่องความปลอดภัย จะทำอย่างไรดี",
+            "time_date": "2023-08-23T09:46:35.566Z",
+            "immage": "content/ครทบกตารพง.jpg"
+        }
+    },
+    {
+        "model": "News.news",
+        "pk": 3,
+        "fields": {
+            "title": "22 ล้านวิว! ครอบครัวชาวออสเตรเลีย เผยคลิปงูเบิ้ม 5 เมตร เลื้อยผ่านหลังคาบ้าน",
+            "Author": 1,
+            "content": "เป็นภาพอันน่าขนลุก จนกลายเป็นไวรัลไปในหลายประเทศทั่วโลก สำหรับคลิปวิดีโอของงูยักษ์ 16 ฟุต เลื้อยไปบนหลังคาบ้านของครอบครัวหนึ่งในออสเตรเลีย ขณะที่พวกเขากำลังกินอาหารเที่ยง",
+            "time_date": "2023-08-30T16:16:38.784Z",
+            "immage": "content/งหาเมตร-ปก.jpg"
+        }
+    },
+    {
+        "model": "News.news",
+        "pk": 4,
+        "fields": {
+            "title": "โปรดเกล้าฯ แต่งตั้งโยกย้าย 762 นายพล ส่งท้าย ‘บิ๊กตู่’ ‘บิ๊กอ๊อบ’ ผงาด ผบ.ทสส. ขณะที่ ‘บิ๊กต่อ’ ขึ้น ผบ.ทบ. ‘บิ๊กดุง’ นั่งผบ.ทร.",
+            "Author": 1,
+            "content": "เมื่อวันที่ 30 สิงหาคม ราชกิจจาเผยแพร่คำสั่ง โปรดเกล้าฯ แต่งตั้งโยกย้ายนายทหารประจำปี 2566 จำนวน 762 ตำแหน่ง โดยมี พล.อ.ประยุทธ์ จันทร์โอชา รักษาการนายกรัฐมนตรี เป็นผู้รับสนองพระบรมราชโองการ มีผลตั้งแต่วันที่ 1 ตุลาคม 2566 เป็นต้นไป (คลิก : ราชกิจจานุเบกษา)\r\n\r\nสำหรับตำแหน่งสำคัญประกอบด้วย อาทิ กองบัญชาการกองทัพไทย อาทิ ‘บิ๊กอ๊อบ’ พล.อ.ทรงวิทย์ หนุนภักดี (ตท.24) รอง ผบ.ทสส. จะขึ้นเป็น ผบ.ทสส. พล.อ.โดมศักดิ์ คำใสแสง หัวหน้าคณะฝ่ายเสธ.ประจำผบ.ทสส. เป็น รองผบ.ทสส. ‘บิ๊กป๋อง’ พล.อ.อนุสรรค์ คุ้มอักษร(ตท.23) ผบ.นทพ. ‘บิ๊กคลื่น’ พล.ร.อ.ปกครอง มนธาตุผลิน (ตท.23) ผู้ทรงคุณวุฒิพิเศษกองทัพเรือ ‘บิ๊กหนึ่ง’ พล.อ.อ.ชานนท์ มุ่งธัญญา (ตท.23) รอง ผบ.ทอ. เป็น รอง ผบ.ทสส. โดยให้ “บิ๊กจิน” พล.ท.ธีระยุทธ จินหิรัญ (ตท.24) รองผู้บัญชาการหน่วยทหารพัฒนา (รอง ผบ.นทพ.) ขยับนั่ง “นักรบสีน้ำเงิน” ผบ.นทพ.",
+            "time_date": "2023-08-30T16:17:37.546Z",
+            "immage": "content/ปกเวบ-ยายทหาร.jpg"
+        }
+    }
+]
